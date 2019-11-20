@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+
+<launch>
+    <!-- start VDB-EDT-->
+    <node name="vdbmap" pkg="vdb_edt" type="vdb_edt_node">
+	<!--probabilistic mapping-->        
+	<param name="l_free" 	value="-0.13"/>
+	<param name="l_occu" 	value="1.01"/>
+	<param name="l_max" 	value="3.5"/>
+	<param name="l_min" 	value="-2.0"/>
+	<param name="l_thresh" 	value="0.0"/>
+
+	<!--occupancy grid map-->        
+	<param name="vox_size" 	   value="0.05"/>
+	<param name="start_range"  value="0.00"/>
+	<param name="sensor_range" value="5.00"/>
+
+	<!--euclidean distance map-->        
+	<param name="vdbedt_version" value="1"/> <!--1 is the improved version-->
+	<param name="max_update_dist" value="20.0"/>
+	<param name="edt_update_duration" value="0.5"/>
+
+	<!--map visualization-->        
+	<param name="vis_update_duration" value="10.0"/>
+	<param name="vis_slice_level" 	  value="2.00"/> <!--a slice in z-axis for visualization-->
+	<param name="vis_map_minx" 	  value="-200.0"/>
+	<param name="vis_map_miny" 	  value="200.0"/>
+	<param name="vis_map_minz" 	  value="-10.0"/>
+	<param name="vis_map_maxx" 	  value="200.0"/>
+	<param name="vis_map_maxy" 	  value="200.0"/>
+	<param name="vis_map_maxz" 	  value="10.0"/>
+    </node>
+</launch>
