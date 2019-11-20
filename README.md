@@ -29,13 +29,13 @@ VDB-EDT is an efficient and robust library for large-scale occupancy grid mappin
 1. Please click [here](http://robotics.ethz.ch/~asl-datasets/iros_2017_voxblox/data.bag) to download the cow-and-lady dataset.
 
      <p align="center">
-       <img src="./asset/cow_vdb_cloud.png" width=900 height=500>
+       <img src="./src/asset/cow_vdb_cloud.png" width=900 height=500>
      </p>
 
 2. Please click [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155067732_link_cuhk_edu_hk/EfiG1KdwOJhBmikf4UDK4mUBmxY72u9surIum8sM1XBMIg?e=zNkECW) to download the large-scale SubT dataset (background grid is with a size of 50m*50m).
 
      <p align="center">
-       <img src="./asset/subt.png" width=900 height=500>
+       <img src="./src/asset/subt.png" width=900 height=500>
      </p>
 
    
@@ -59,9 +59,14 @@ VDB-EDT is an efficient and robust library for large-scale occupancy grid mappin
 ### Results
 
   <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZpsKEkUgcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/embed/kZpsKEkUgcY" target="cow and lady"><img src="./src/asset/cow_result.png"
+  alt="cow and lady" width="960" height="540" border="10" /></a>
+  Results on cow-and-lady dataset
   </p>
   <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D6z6KO2A360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/embed/D6z6KO2A360" target="subt"><img src="./src/asset/subt_result.png"
+  alt="subt" width="960" height="540" border="10" /></a>
+  Results on SubT dataset
   </p>
+
 
