@@ -70,3 +70,6 @@ VDB-EDT is an efficient and robust library for large-scale occupancy grid mappin
   </p>
 
 
+### Acknowledgement
+
+The VDB Ros Wrapper inside this package is developed by Rohit Garg from Air Lab CMU based on the work of ETHZ ASL. We give our special acknowledgement to him. 
