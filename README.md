@@ -1,4 +1,4 @@
-# VDB-EDT: VDB Based Euclidean Distance Transform
+# VDB-EDT: An Efficient Euclidean Distance Transform Algorithm Based on VDB Data Structure
 
 VDB-EDT is an efficient and robust library for large-scale occupancy grid mapping and Euclidean distance transform.  Compared with the state-of-the-art method, VDB-EDT can provide high-quality and more complete mapping results, while consuming less memory and processing time. 
 
@@ -48,7 +48,7 @@ VDB-EDT is an efficient and robust library for large-scale occupancy grid mappin
 
    `roslaunch vdb_edt VDB-EDT.launch`
 
-2. Play the cow-and-lady dataset. There exist a severe synchronization problem in this dataset. To sufficiently process this dataset, a play rate of 0.1 is recomended
+2. Play the cow-and-lady dataset. There exist a severe synchronization problem in this dataset. To sufficiently process this dataset, a play rate of 0.1 is recommended
 
    `rosbag play data.bag -r 0.1 ` 
 
