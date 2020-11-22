@@ -1,5 +1,7 @@
 # VDB-EDT: An Efficient Euclidean Distance Transform Algorithm Based on VDB Data Structure
 
+# The video demonstration for ICRA-2021 paper can be found here https://youtu.be/Bojh6ylYUOo
+
 VDB-EDT is an efficient and robust library for large-scale occupancy grid mapping and Euclidean distance transform.  Compared with the state-of-the-art method, VDB-EDT can provide high-quality and more complete mapping results, while consuming less memory and processing time. 
 
 
